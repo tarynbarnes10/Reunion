@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Barnes-Moore Family Reunion</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600;700&display=swap');
+        
+        :root {
+            --sage-green: #9fb08e;
+            --deep-forest: #3d4a35;
+            --warm-cream: #fcfaf2;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--warm-cream);
+            color: var(--deep-forest);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, .serif-font {
+            font-family: 'Crimson Pro', serif;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(rgba(61, 74, 53, 0.7), rgba(61, 74, 53, 0.7)), url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+        }
+
+        .image-placeholder {
+            background-color: #e5e7eb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Ensure smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient text-white py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4">Barnes-Moore</h1>
+            <h2 class="text-3xl md:text-4xl italic mb-6">“Unbroken Roots, Sustained By Faith”</h2>
+            <p class="text-xl md:text-2xl font-light mb-8">From the Heartland of NC to the Heart of the South!</p>
+            <div class="bg-white/20 backdrop-blur-md p-4 rounded-lg inline-block border border-white/30">
+                <p class="text-lg font-semibold"><i class="far fa-calendar-alt mr-2"></i> August 8, 2026</p>
+                <p class="text-lg"><i class="fas fa-map-marker-alt mr-2"></i> Lake Lanier Islands, Georgia</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        
+        <!-- Intro Section -->
+        <section class="mb-20 text-center">
+            <h3 class="text-4xl font-bold mb-6">Turning the Page to a New Chapter</h3>
+            <p class="text-lg leading-relaxed max-w-3xl mx-auto text-gray-700">
+                For years, Wilson, North Carolina, has been the backdrop of our family stories—but for 2026, we are heading to <strong>Atlanta, Georgia!</strong> 
+                We’re leveling up the fun at <strong>Game Changer at Lake Lanier Islands</strong>.
+            </p>
+        </section>
+
+        <!-- Event Details Grid -->
+        <div class="grid md:grid-cols-2 gap-12 mb-20">
+            <!-- Details -->
+            <div class="card p-8 border-l-8 border-[#9fb08e]">
+                <h4 class="text-2xl font-bold mb-6 flex items-center">
+                    <i class="fas fa-info-circle mr-3 text-[#9fb08e]"></i> The Details
+                </h4>
+                <ul class="space-y-4">
+                    <li class="flex justify-between border-b pb-2">
+                        <span class="font-semibold">Where:</span>
+                        <span>Game Changer at Lake Lanier Islands</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-2">
+                        <span class="font-semibold">When:</span>
+                        <span>Saturday, August 8, 2026</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-2">
+                        <span class="font-semibold">Time:</span>
+                        <span>1:00pm - 5:00pm ET</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-2">
+                        <span class="font-semibold">Cost:</span>
+                        <span>$100 Adults / $50 Children (3+)</span>
+                    </li>
+                </ul>
+                <p class="mt-6 text-sm italic text-gray-600">Ticket includes: Food, drinks, games, and a reunion t-shirt!</p>
+            </div>
+
+            <!-- T-Shirt Image Area -->
+            <div class="flex flex-col items-center justify-center">
+                <div class="image-placeholder w-full h-80 shadow-inner bg-[#9fb08e]/20 border-2 border-dashed border-[#9fb08e]">
+                    <div class="text-center p-8">
+                        <div class="mb-4 text-6xl text-[#9fb08e] opacity-50"><i class="fas fa-tshirt"></i></div>
+                        <p class="text-sm font-semibold uppercase tracking-widest text-[#3d4a35]">Official 2026 Reunion Shirt</p>
+                        <p class="text-xs text-gray-500 mt-2">Design: Sage Green with "Unbroken Roots" Crest</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why You Can't Miss Section -->
+        <section class="mb-20">
+            <h3 class="text-3xl font-bold mb-8 text-center">Why You Can't Miss This Year</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card p-6 text-center">
+                    <div class="text-[#9fb08e] text-3xl mb-4"><i class="fas fa-gamepad"></i></div>
+                    <h5 class="font-bold mb-2 text-xl">The Ultimate Playground</h5>
+                    <p class="text-gray-600 text-sm">Escape rooms, boutique bowling, and a massive arcade for all generations.</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <div class="text-[#9fb08e] text-3xl mb-4"><i class="fas fa-umbrella-beach"></i></div>
+                    <h5 class="font-bold mb-2 text-xl">Lake Lanier Luxury</h5>
+                    <p class="text-gray-600 text-sm">Stunning lakeside views and fresh Georgia breeze for the perfect summer escape.</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <div class="text-[#9fb08e] text-3xl mb-4"><i class="fas fa-users"></i></div>
+                    <h5 class="font-bold mb-2 text-xl">Classic Traditions</h5>
+                    <p class="text-gray-600 text-sm">Storytelling, delicious food, and the irreplaceable Barnes-Moore connection.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Travel & Lodging -->
+        <section id="travel" class="bg-gray-100 -mx-6 px-6 py-16 mb-20 rounded-xl">
+            <h3 class="text-3xl font-bold mb-10 text-center">Travel & Lodging</h3>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Logistics -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-plane-arrival mr-2 text-[#9fb08e]"></i> Arrival
+                    </h4>
+                    <p class="bg-white p-4 rounded shadow-sm text-sm mb-8">
+                        <strong>Hartsfield-Jackson International Airport (ATL)</strong><br>
+                        6000 N Terminal Pkwy, Atlanta, GA 30320
+                    </p>
+
+                    <h4 class="text-xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-hotel mr-2 text-[#9fb08e]"></i> Recommended Hotels
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-white p-3 rounded shadow-sm flex justify-between items-center">
+                            <span>Holiday Inn Express & Suites Buford NE</span>
+                            <span class="text-gray-500">4.9 mi</span>
+                        </div>
+                        <div class="bg-white p-3 rounded shadow-sm flex justify-between items-center">
+                            <span>Hampton Inn & Suites Flowery Branch</span>
+                            <span class="text-gray-500">6.6 mi</span>
+                        </div>
+                        <div class="bg-white p-3 rounded shadow-sm flex justify-between items-center">
+                            <span>SpringHill Suites (Mall of Georgia)</span>
+                            <span class="text-gray-500">8.1 mi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Airbnb -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4 flex items-center">
+                        <i class="fab fa-airbnb mr-2 text-[#FF5A5F]"></i> Airbnb Communities
+                    </h4>
+                    <div class="grid grid-cols-1 gap-4 text-sm">
+                        <div class="bg-white p-4 rounded shadow-sm border-l-4 border-[#9fb08e]">
+                            <span class="font-bold block">Flowery Branch</span>
+                            <p class="text-xs text-gray-500 mt-1">Quiet & Charming. 10–15 mins away.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded shadow-sm border-l-4 border-[#9fb08e]">
+                            <span class="font-bold block">Sugar Hill</span>
+                            <p class="text-xs text-gray-500 mt-1">Modern Suburban. 15–20 mins away.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded shadow-sm border-l-4 border-[#9fb08e]">
+                            <span class="font-bold block">Buford</span>
+                            <p class="text-xs text-gray-500 mt-1">Lakeside Luxury. 5–10 mins away.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded shadow-sm border-l-4 border-[#9fb08e]">
+                            <span class="font-bold block">Suwanee</span>
+                            <p class="text-xs text-gray-500 mt-1">Upscale & Family. 20–25 mins away.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Places of Interest -->
+        <section class="mb-20">
+            <h3 class="text-3xl font-bold mb-10 text-center">Explore Atlanta</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Georgia Aquarium -->
+                <div class="group relative overflow-hidden rounded-xl h-64 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Aquarium">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-4">
+                        <h5 class="text-white font-bold text-lg">Georgia Aquarium</h5>
+                        <p class="text-white/80 text-xs">One of the largest in the world</p>
+                    </div>
+                </div>
+                <!-- World of Coke -->
+                <div class="group relative overflow-hidden rounded-xl h-64 shadow-lg">
+                    <div class="w-full h-full bg-[#E41E2B] flex items-center justify-center p-8">
+                        <i class="fas fa-glass-whiskey text-white text-6xl opacity-20"></i>
+                        <div class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/60 to-transparent">
+                            <h5 class="text-white font-bold text-lg">World of Coca-Cola</h5>
+                            <p class="text-white/80 text-xs">Global tasting & 4D theater</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- MLK Park -->
+                <div class="group relative overflow-hidden rounded-xl h-64 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1590487988256-9ed24133863e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="MLK Park">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-4">
+                        <h5 class="text-white font-bold text-lg">MLK Jr. Historical Park</h5>
+                        <p class="text-white/80 text-xs">Heritage & Reflection</p>
+                    </div>
+                </div>
+                <!-- Stone Mountain -->
+                <div class="group relative overflow-hidden rounded-xl h-64 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Stone Mountain">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-4">
+                        <h5 class="text-white font-bold text-lg">Stone Mountain Park</h5>
+                        <p class="text-white/80 text-xs">Skyride & Nightly Lasershow</p>
+                    </div>
+                </div>
+                <!-- Margaritaville -->
+                <div class="group relative overflow-hidden rounded-xl h-64 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Lake Lanier">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-4">
+                        <h5 class="text-white font-bold text-lg">Margaritaville</h5>
+                        <p class="text-white/80 text-xs">Water Park & Beach Life</p>
+                    </div>
+                </div>
+                <!-- Fernbank -->
+                <div class="group relative overflow-hidden rounded-xl h-64 shadow-lg">
+                    <div class="w-full h-full bg-[#3d4a35] flex items-center justify-center p-8">
+                        <i class="fas fa-dinosaur text-white/20 text-6xl"></i>
+                        <div class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/60 to-transparent">
+                            <h5 class="text-white font-bold text-lg">Fernbank Museum</h5>
+                            <p class="text-white/80 text-xs">Dinosaurs & Old Growth Forest</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Save Your Spot / RSVP -->
+        <section class="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl p-8 md:p-12 border border-[#9fb08e]/20 mb-20">
+            <div class="text-center mb-10">
+                <h3 class="text-4xl font-bold mb-4">Save Your Spot</h3>
+                <p class="text-gray-600">Complete registration by <strong>May 10, 2026</strong>. Final payment due by June 7.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="bg-[#9fb08e]/10 p-3 rounded-full mr-4 text-[#9fb08e]"><i class="fas fa-file-alt"></i></div>
+                        <div>
+                            <p class="font-bold">RSVP Link</p>
+                            <a href="#" class="text-[#9fb08e] underline font-medium">Event Registration Form</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-[#9fb08e]/10 p-3 rounded-full mr-4 text-[#9fb08e]"><i class="fas fa-comment-dollar"></i></div>
+                        <div>
+                            <p class="font-bold">Payment Options</p>
+                            <ul class="text-sm space-y-2 mt-1">
+                                <li><strong>Zelle:</strong> Kenneth Barnes (732) 887-8152</li>
+                                <li><strong>Apple Pay:</strong> Taryn Woldagabriel (908) 922-1532</li>
+                                <li><strong>Venmo:</strong> @Taryn-Barnes-1</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#9fb08e] rounded-xl p-6 text-white flex flex-col justify-center text-center">
+                    <p class="text-3xl font-bold mb-2">$100</p>
+                    <p class="uppercase text-xs tracking-widest opacity-80 mb-4">Adults</p>
+                    <hr class="border-white/20 mb-4">
+                    <p class="text-3xl font-bold mb-2">$50</p>
+                    <p class="uppercase text-xs tracking-widest opacity-80">Children (Ages 3+)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Committee -->
+        <section class="mb-20">
+            <h3 class="text-3xl font-bold mb-10 text-center">2026 Committee</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-4">
+                    <p class="font-bold text-[#9fb08e]">Daniel Moore</p>
+                    <p class="text-xs uppercase">President</p>
+                </div>
+                <div class="p-4">
+                    <p class="font-bold text-[#9fb08e]">Taryn Woldagabriel</p>
+                    <p class="text-xs uppercase">Vice-President</p>
+                </div>
+                <div class="p-4">
+                    <p class="font-bold text-[#9fb08e]">Kenneth Barnes</p>
+                    <p class="text-xs uppercase">Treasurer</p>
+                </div>
+                <div class="p-4">
+                    <p class="font-bold text-[#9fb08e]">Courtney Rubino</p>
+                    <p class="text-xs uppercase">Secretary</p>
+                </div>
+            </div>
+
+            <!-- State Reps -->
+            <div class="mt-12 bg-white rounded-lg p-6 shadow-sm overflow-x-auto">
+                <h4 class="font-bold mb-4 text-center border-b pb-2">State Representatives</h4>
+                <div class="flex space-x-8 text-sm min-w-max justify-center">
+                    <div class="px-4"><span class="font-bold">NJ/PA:</span> Kenneth Barnes, Stacie Newton</div>
+                    <div class="px-4"><span class="font-bold">MD:</span> Luther Moore</div>
+                    <div class="px-4"><span class="font-bold">VA:</span> Johnson Family</div>
+                    <div class="px-4"><span class="font-bold">NC:</span> Janice Farmer</div>
+                    <div class="px-4"><span class="font-bold">GA, SC, FL:</span> Courtney, Taryn</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#3d4a35] text-white py-12 px-6 text-center">
+        <p class="serif-font italic text-2xl mb-4">We can’t wait to see your faces in the ATL!</p>
+        <p class="text-sm opacity-60">&copy; 2026 Barnes-Moore Family Reunion Committee</p>
+    </footer>
+
+</body>
+</html>
